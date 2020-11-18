@@ -224,8 +224,8 @@ OcPlatformUpdateSmbios (
       Data.BoardType = &Config->PlatformInfo.Smbios.BoardType;
     }
 
-    if (OC_BLOB_GET (&Config->PlatformInfo.Smbios.ChassisType)[0] != '\0') {
-      Data.ChassisType = OC_BLOB_GET (&Config->PlatformInfo.Smbios.ChassisType);
+    if (Config->PlatformInfo.Smbios.ChassisType != 0) {
+      Data.ChassisType = &Config->PlatformInfo.Smbios.ChassisType;
     }
 
     if (OC_BLOB_GET (&Config->PlatformInfo.Smbios.SystemSKUNumber)[0] != '\0') {
