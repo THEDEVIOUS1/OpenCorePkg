@@ -21,7 +21,7 @@ BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x31
+ChassisType: 0x1F
 ChassisVersion: "Mac-827FAC58A8FDFA22"
 ChassisAssetTag: ""
 PlatformFeature: 0x3A
